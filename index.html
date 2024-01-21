@@ -226,13 +226,13 @@
         </div>
     </div>
 
-    <div class="contact-form">
-        <form action="mailto:danielechi40@gmail.com" method="post" enctype="multipart/form-data">
-            <input type="name" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email Address" required>
-            <input type="" placeholder="Your Mobile Number" required>
-            <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-            <input type="submit" value="Send Message" class="submit" required>
+   <div class="contact-form">
+        <form action="#"">
+            <input type="name" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email Address" required>
+            <input type="" id="phone" placeholder="Your Mobile Number" required>
+            <textarea name="" id="message" cols="35" rows="10" placeholder="How Can I Help You" autocomplete="off" required></textarea>
+            <input type="submit" value="Send Message" class="submit" required >
         </form>
     </div>
 </section>
@@ -250,6 +250,9 @@
 
 
     <! ------  js link --------------->
-    <script type="text/javascript" src="script.js"></script>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
